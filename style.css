@@ -7,3 +7,7 @@
 .portfolioImages {
     margin: 5px;
 }
+
+.floatleft {
+    float: left;
+}
