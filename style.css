@@ -2,6 +2,7 @@
     font-size: larger;
     margin-top: 10px;
     font-weight: bold;
+    color: whitesmoke;
 }
 
 .portfolioImages {
@@ -11,3 +12,7 @@
 .floatleft {
     float: left;
 }
+
+/* .card {
+    background-color: darkgray;
+} */
