@@ -25,6 +25,10 @@ hr.solid {
     margin: 20px;
 }
 
+.index-content p {
+    text-align: justify;
+}
+
 @media only screen and (max-width: 768px) {
     .floatleft {
         float: none;
@@ -33,9 +37,6 @@ hr.solid {
     .index-content {
         text-align: center;
     }
-    .index-content p {
-        text-align: justify;
-    }
 
     .portfolioImages {
         text-align: center;
@@ -43,5 +44,10 @@ hr.solid {
 
     h1 {
         margin-left: 12px;
+    }
+
+    p {
+        margin-left: 12px;
+        margin-right: 12px;
     }
 }
