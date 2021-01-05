@@ -41,7 +41,7 @@ hr.solid {
     margin: 20px;
 }
 
-/* Media querie for Small & X-Small windows... */
+/* Media query for Small & X-Small windows... */
 @media only screen and (max-width: 768px) {
     .floatleft {
         float: none;
@@ -62,5 +62,15 @@ hr.solid {
     p {
         margin-left: 12px;
         margin-right: 12px;
+    }
+}
+
+/* Media query for only X-Small windows... */
+@media only screen and (max-width: 576px) {
+    .navbar-nav {
+        flex-direction: row;
+    }
+    .nav-item {
+        margin: 10px;
     }
 }
