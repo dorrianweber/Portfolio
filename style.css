@@ -5,28 +5,30 @@
     color: whitesmoke
 }
 
-.portfolioImages img {
-    margin: 5px;
-}
-
 .floatleft {
     float: left;
-}
-
-.index-content img {
-    margin: 10px;
 }
 
 hr.solid {
     border-top: 2px solid rgb(212, 96, 96);
 }
 
-.contactItems p {
-    margin: 20px;
+.index-content img {
+    margin-top: 10px;
+    margin-right: 10px;
 }
 
 .index-content p {
     text-align: justify;
+    margin-top: 3px;
+}
+
+.portfolioImages img {
+    margin: 5px;
+}
+
+.contactItems p {
+    margin: 20px;
 }
 
 @media only screen and (max-width: 768px) {
