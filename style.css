@@ -1,3 +1,5 @@
+/* My name in Navbar... */
+
 #myName {
     font-size: larger;
     margin-top: 10px;
@@ -5,38 +7,47 @@
     color: whitesmoke
 }
 
-.floatleft {
-    float: left;
-}
+/* Dividing line... */
 
 hr.solid {
     border-top: 2px solid rgb(212, 96, 96);
 }
 
-.index-content img {
+/* Elements in the 'About Me' page... */
+
+.floatleft {
+    float: left;
+}
+
+.indexContent img {
     margin-top: 10px;
     margin-right: 10px;
 }
 
-.index-content p {
+.indexContent p {
     text-align: justify;
     margin-top: 3px;
 }
+
+/* Elements in the 'Portfolio' page... */
 
 .portfolioImages img {
     margin: 5px;
 }
 
+/* Elements in the 'Contact' page... */
+
 .contactItems p {
     margin: 20px;
 }
 
+/* Media querie for Small & X-Small windows... */
 @media only screen and (max-width: 768px) {
     .floatleft {
         float: none;
         margin: auto;
     }
-    .index-content {
+    .indexContent {
         text-align: center;
     }
 
