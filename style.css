@@ -5,10 +5,27 @@
     color: whitesmoke
 }
 
-.portfolioImages {
+.portfolioImages img {
     margin: 10px;
 }
 
 .floatleft {
     float: left;
+}
+
+.index-content img {
+    margin: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .floatleft {
+        float: none;
+        margin: auto;
+    }
+    .index-content {
+        text-align: center;
+    }
+    .index-content p {
+        text-align: left;
+    }
 }
