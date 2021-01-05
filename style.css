@@ -19,7 +19,10 @@
 
 hr.solid {
     border-top: 2px solid rgb(212, 96, 96);
+}
 
+.contactItems p {
+    margin: 20px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -36,5 +39,9 @@ hr.solid {
 
     .portfolioImages {
         text-align: center;
+    }
+
+    h1 {
+        margin-left: 12px;
     }
 }
