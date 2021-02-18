@@ -37,6 +37,42 @@ hr.solid {
     margin: 5px;
 }
 
+.cropped {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    object-position: 50%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(212, 96, 96);
+}
+
+.container:hover .overlay {
+    opacity: .85;
+}
+  
+.overlay-text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 /* Elements in the 'Contact' page... */
 
 .contactItems p {
