@@ -35,6 +35,7 @@ hr.solid {
 
 .portfolioImages img {
     margin: 5px;
+    border: grey solid 2px;
 }
 
 .cropped {
@@ -57,7 +58,7 @@ hr.solid {
     background-color: rgb(212, 96, 96);
 }
 
-.container:hover .overlay {
+.overlay-img:hover .overlay {
     opacity: .85;
 }
   
@@ -110,5 +111,18 @@ hr.solid {
     }
     .nav-item {
         margin: 10px;
+    }
+}
+
+/* Media query for mobile devices... */
+@media only screen and (max-width: 400px) {
+    .navbar-nav {
+        margin: auto;
+    }
+    #myName {
+        margin: auto;
+    }
+    .center-mobile {
+        margin: auto;
     }
 }
